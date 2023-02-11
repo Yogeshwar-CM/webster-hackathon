@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+#welcome,
+#hey,
+#log-out {
+  margin-top: 0;
+  width: fit-content;
+  height: fit-content;
+}
+.up {
+  background: url(./assets/s-cook.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#top {
+  width: fit-content;
+  height: 225px;
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 2px 4px #0000000f;
+  border-radius: 0 0 25px 0;
+}
+#hey {
+  font-family: "Montserrat";
+  padding: 25px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 54px;
+
+  text-align: center;
+  letter-spacing: 0.3em;
+
+  color: #ca7648;
+}
+#welcome {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  padding: 5px;
+  padding-top: 0;
+  padding-left: 25px;
+
+  text-align: center;
+  letter-spacing: 0.305em;
+
+  color: #ffffff;
+}
+#log-out {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  width: 210px;
+  height: 39px;
+  margin-top: 200px;
+  transform: rotate(-90deg);
+  transform: translateX(-100px);
+  cursor: pointer;
+
+  line-height: 54px;
+  background: #ca7648;
+  color: #000000;
+}
+body {
+  background: #0e0f12;
+}
+#lorem {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  margin-left: 30px;
+  margin-bottom: 0;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ca7648;
+}
+.row {
+  height: fit-content;
+}
+#check-out {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 54px;
+  margin-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  height: fit-content;
+  color: #e5d0a1;
+}
+.col {
+  height: fit-content;
+}
+#middle {
+  margin-top: 50px;
+}
+#s-cook1 {
+  width: 323px;
+  height: 323px;
+  margin: 50px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-bottom: 0;
+}
+.postcard {
+  margin-top: 0;
+  margin-bottom: 75px;
+  width: 1223px;
+  height: 400px;
+  background: rgba(17, 30, 34, 0.75);
+  border-radius: 25px;
+  transform: translateY(-150px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  margin-left: 100px;
+}
+.postcard img {
+  height: 300px;
+  margin: 20px;
+}
+#stars {
+  width: 214px;
+  height: 30px;
+}
+#qty {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  width: 175px;
+  padding-top: 18px;
+  height: 60px;
+  text-align: center;
+  background: #ca7648;
+  border-radius: 25px;
+  color: #281611;
+}
+#minus{
+  margin-left: 20px;
+}
+#t {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 19px;
+  line-height: 23px;
+  margin: 22px;
+  color: #ffffff;
+}
+#sc {
+  width: 225px;
+  height: 225px;
+  /* margin-right: 20px; */
+}
+#stats {
+  width: 476px;
+  height: 106px;
+}
+@media only screen and (max-width: 990px) {
+  #hey {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  #top {
+    height: fit-content;
+  }
+  #welcome {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  #s-cook1 {
+    margin-bottom: 50px;
+    height: 250px;
+    width: 250px;
+  }
+  .postcard {
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .postcard {
+    align-self: center;
+    width: 650px;
+    height: 750px;
+    margin-left: 300px;
+  }
+  #qty {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .postcard {
+    margin-top: 175px;
+    margin-bottom: 0;
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .postcard {
+    margin-left: 75px;
+  }
+  #lorem {
+    font-size: medium;
+    width: 600px;
+  }
+  #check-out {
+    font-size: xx-large;
+  }
+  #stats {
+    width: 300px;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .postcard {
+    width: 500px;
+    height: fit-content;
+    padding-left: 50px;
+  }
+  #s-cook1 {
+    margin-left: 150px;
+  }
+  .col {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .postcard img {
+    width: 300px;
+    height: 300px;
+  }
+  #qty {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 579px) {
+  .up {
+    background: url(./assets/croped-s-cook.png);
+  }
+  #top {
+    margin-left: 75px;
+    /* margin-top: 30px; */
+    /* transform: translateY(50px); */
+    border-radius: 0 0 25px 25px;
+  }
+  .postcard {
+    width: 400px;
+  }
+  .postcard img {
+    width: 250px;
+    height: 250px;
+  }
+  #sc {
+    width: 175px;
+    margin-left: 40px;
+    height: 175px;
+  }
+  #t {
+    font-size: medium;
+  }
+  #lorem {
+    font-size: smaller;
+    /* width: 400px; */
+  }
+  #stats {
+    width: 250px;
+    padding-bottom: 25px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  #top {
+    margin-left: 50px;
+  }
+  #s-cook1 {
+    margin-left: 90px;
+  }
+  .postcard {
+    width: fit-content;
+    margin-left: 30px;
+    /* align-items: center; */
+  }
+  .postcard img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width:390px){
+    #hey{
+        font-size: medium;
+    }
+}

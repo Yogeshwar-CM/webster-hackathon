@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+body {
+  background-color: #2d1821;
+  display: flex;
+
+}
+#left-images img {
+  width: 300px;
+}
+#p-box {
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  left: 555px;
+  top: 100px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 25px;
+}
+body h1 {
+  color: #fff;
+  padding-left: 400px;
+  transform: rotate(-90deg) translateX(-175px);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  letter-spacing: 0.825em;
+}
+
+#b1 #cn {
+  margin-left: 40px;
+  margin-top: 45px;
+  width: 420px;
+  height: 60px;
+
+  background: #11111d;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#b1 input[type="text"] {
+  color: #fff;
+  padding-left: 20px;
+  font-size: larger;
+}
+#hn {
+  margin-left: 40px;
+  margin-top: 45px;
+  width: 175px;
+  height: 60px;
+
+  background: #11111d;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#b1 {
+  margin-left: -10px;
+
+}
+#middle {
+  display: flex;
+  justify-content: center;
+}
+#b1 input[type="date"] {
+  color: #ffffffbe;
+  padding-left: 20px;
+  font-size: larger;
+}
+#cvv input[type="number"] {
+  color: #ffffffbe;
+  padding-left: 20px;
+  font-size: larger;
+}
+#cvv {
+  margin-left: 20px;
+  margin-top: 45px;
+  width: 175px;
+  height: 60px;
+
+  background: #11111d;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#middle {
+  margin-left: 40px;
+}
+
+#middle #hn {
+  margin-left: -25px;
+}
+#npay {
+  position: absolute;
+  transform: rotate(90deg) scale(1.2);
+  left: 500px;
+  top: 125px;
+  z-index: -2;
+}
+#proceed {
+  width: 350px;
+  height: 60px;
+  margin: 35px;
+  margin-left: 80px;
+  background: #eeb472;
+  color: #11111d;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 5%;
+  padding-top: 20px;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+#proceed:hover{
+    background: #2d1818;
+    color: #fff;
+    transform: scale(0.9);
+}
